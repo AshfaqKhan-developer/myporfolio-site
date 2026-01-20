@@ -16,7 +16,7 @@
   </header>
   <hr>
   <!-- Introduction Section  -->
-    <h2>Hi, I'm <i>Ashfaq Khan</i> </h2>
+    <h2>Hi, I'm <i>Ashfaq Khan</i> </h2> <!--italic tag-->
     <p> <b>Computer Science </b> Student & <b>Frontend Developer</b> </p>
   
 
@@ -140,6 +140,96 @@
     <button class="submit-btn" id="submit-btn" type="submit">
 Send Message</button>
  </form>
+   <!-- ********** Registration Form ********* -->
+ <h1>Registration Form</h1>
+
+<form class="login-form" id="login-form">
+
+ <div class="input-feild" id="first-row">
+   <label for="user-name">Name:</label><br>
+  <input type="text" id="user-name" name="name" placeholder="Enter your name" required>
+
+  <label for="age">Age:</label>
+  <input type="number" id="age" name="age" min="1" max="80" required>
+  <br><br>
+ </div>
+
+ <div class="input-feild" id="second-row">
+   <label for="password">Password:</label><br>
+  <input type="password" id="password" name="password" required>
+
+   <label for="email">Email:</label>
+  <input type="email" id="email" name="email" required>
+  <br><br>
+ </div>
+
+  <div class="input-feild" id="third-row">
+    <label for="date-time">Date & Time:</label>
+  <input type="datetime-local" id="date-time" name="datetime">
+  
+
+  <label for="image-file">Upload Image:</label>
+  <input type="file" id="image-file" name="image_file">
+  <br><br>
+  </div>
+
+  <div class="input-feild" id="fourth-row">
+    <label for="form-bg-color">Choose Color:</label>
+  <input type="color" id="form-bg-color" name="color">
+ 
+  <label for="image-url">Image URL:</label>
+  <input type="url" id="image-url" name="url">
+  <br><br>
+  </div>
+
+  <div class="input-feild" id="fifth-row">
+    <label for="month">Month:</label>
+  <input type="month" id="month" name="month">
+  
+
+  <label for="week">Week:</label>
+  <input type="week" id="week" name="week">
+  <br><br>
+
+  </div>
+  <div class="input-feild" id="sixth-row">
+    <label>
+    <input type="checkbox" name="agree" value="yes">
+    Agree to terms
+  </label>
+  
+  <label>Gender:</label>
+  <input type="radio" name="gender" value="male"> Male
+  <input type="radio" name="gender" value="female"> Female
+  <br><br>
+
+  </div>
+ 
+ 
+
+ <div class="input-feild" id="seventh-row">
+   <label for="range">Experience Level:</label>
+  <input type="range" id="range" name="experience" min="0" max="10">
+ 
+
+  <label for="subject">Select Subject:</label>
+  <select id="subject" name="subject">
+    <option value="">Select Subject</option>
+    <option value="english">English</option>
+    <option value="maths">Maths</option>
+    <option value="urdu">Urdu</option>
+  </select>
+  <br><br>
+ </div>
+
+  <label for="message">Message:</label><br>
+  <textarea id="message" name="message" placeholder="Write your message here"></textarea>
+  <br><br>
+
+  <input type="reset" value="Reset">
+  <button type="submit">Save</button>
+
+</form>
 
 
 
